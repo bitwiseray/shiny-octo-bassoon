@@ -83,18 +83,21 @@ body {
 .profile-card .socials {
   display: flex;
   align-items: center;
-}
-
-.profile-card .socials {
-  display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: 15px;
 }
 
 .socials .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
   text-decoration: none;
   margin: 0 8px;
+  font-size: 26px;
 }
 
 .profile-card .action-buttons {
