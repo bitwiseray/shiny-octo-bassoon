@@ -1,0 +1,8 @@
+new Typed('#tiles', {
+  strings: ['Developer', '3D Artist', 'Writer'],
+  typeSpeed: 70,
+  backSpeed: 70,
+  backDelay: 700,
+  loop: true,
+  showCursor: true
+});
