@@ -114,12 +114,13 @@ body {
   border-radius: 22px;
   margin: 0 10px;
   padding: 8px 24px;
+  text-decoration: none;
   background-color: var(--main-color);
   transition: all 0.3s ease;
 }
 
 .btn:hover {
-  color: #FC8DFF;
+  background: #048672;
 }
 
 hr {
