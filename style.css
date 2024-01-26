@@ -73,6 +73,7 @@ body {
   border-radius: 50%;
   border: 3px solid #fff;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .animate {
