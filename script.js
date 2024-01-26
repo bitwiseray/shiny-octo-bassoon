@@ -13,7 +13,6 @@ function showmore() {
 }
 
 const targetElm = document.querySelector('.profile-img');
-console.log(targetElm)
 targetElm.addEventListener('click', () => {
   targetElm.classList.toggle('animate');
 });
