@@ -9,5 +9,11 @@ new Typed('#tiles', {
 
 function showmore() {
   let answer = confirm('You wanna see more?');
-  if (answer) alert('too bad, i haven\'t written more!');
+  if (answer) alert('Too bad, I haven\'t written more! But you can always click on the profile picture for some fun');
 }
+
+const targetElm = document.querySelector('.profile-img');
+console.log(targetElm)
+targetElm.addEventListener('click', () => {
+  targetElm.classList.toggle('animate');
+});

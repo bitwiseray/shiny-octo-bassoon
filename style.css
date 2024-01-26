@@ -57,12 +57,26 @@ body {
   margin-bottom: 10px;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .image .profile-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
+  cursor: pointer;
+}
+
+.animate {
+  animation: rotate 15s linear infinite;
 }
 
 .profile-card .text-data {
