@@ -6,3 +6,8 @@ new Typed('#tiles', {
   loop: true,
   showCursor: true
 });
+
+function showmore() {
+  let answer = confirm('You wanna see more?');
+  if (answer) alert('too bad, i haven\'t written more!');
+}
