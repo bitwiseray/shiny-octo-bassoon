@@ -1,5 +1,5 @@
 new Typed('#tiles', {
-  strings: ['Developer', '3D Artist', 'Writer'],
+  strings: ['Developer', '3D Artist', 'Writer', 'Cook', 'Editor'],
   typeSpeed: 70,
   backSpeed: 70,
   backDelay: 700,
